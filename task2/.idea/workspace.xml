@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a22e337e-3625-4a54-b2a0-9981257bb6a9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1eD6M5SMQoZxfXnHnZjqwe9ju8x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm\WebProjects\task2\Html" />
+      <recent name="E:\WebStorm\WebProjects\task2\Img\Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStorm\WebProjects\task2\Image\Tip" />
+      <recent name="E:\WebStorm\WebProjects\task2\Image" />
+      <recent name="E:\WebStorm\WebProjects\task2\Css" />
+      <recent name="E:\WebStorm\WebProjects\task2\Image\liveTipImg" />
+      <recent name="E:\WebStorm\WebProjects\task2\Html" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a22e337e-3625-4a54-b2a0-9981257bb6a9" name="Default Changelist" comment="" />
+      <created>1593843765517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593843765517</updated>
+      <workItem from="1593843771184" duration="1357000" />
+      <workItem from="1593856233698" duration="8000" />
+      <workItem from="1593858324712" duration="4855000" />
+      <workItem from="1593874367531" duration="1380000" />
+      <workItem from="1593918858358" duration="6538000" />
+      <workItem from="1594021879869" duration="7265000" />
+      <workItem from="1594032164006" duration="4174000" />
+      <workItem from="1594092800634" duration="7140000" />
+      <workItem from="1594176439527" duration="4384000" />
+      <workItem from="1594265105305" duration="932000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

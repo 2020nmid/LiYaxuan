@@ -1,0 +1,172 @@
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+ }
+
+#head {
+    width: 100%;
+    height: 56px;
+}
+
+#head-left{
+    width: 595px;
+    height: 36px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#head-left-ul {
+    width: 595px;
+    height: 36px;
+}
+
+.head-left-li1{
+    float: left;
+    list-style: none;
+}
+
+.head-left-li{
+    float: left;
+    list-style: none;
+    margin-left: 12px;
+}
+
+.head-character{
+    line-height: 36px;
+    font-size: 15px;
+    color: #515151;
+}
+
+.head-a {
+    /*text-decoration: none;*/
+    float: left;
+    color: #515151;
+}
+
+#img-bilibili{
+    float: left;
+    color: #1296db;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+#mainStation{
+    float: left;
+    margin-left: 10px;
+}
+
+#img-xjt{
+    float: left;
+    color: gray;
+    line-height: 36px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+#img-phone{
+    float: left;
+    color: #1296db;
+    font-size: 18px;
+}
+
+#downloadAPP{
+    float: left;
+}
+
+#head-center {
+    width: 496px;
+    height: 36px;
+    margin-left: 80px;
+}
+
+#keyword {
+    width: 444px;
+    height: 32px;
+    float: left;
+    line-height: 36px;
+    text-indent: 10px;
+    color: #8a8a8a;
+}
+
+#search {
+    width: 48px;
+    height: 36px;
+    float: left;
+    border: 0;
+    color: #515151;
+}
+
+#search:hover{
+    color: #1296db;
+    cursor: pointer;
+}
+
+#head-right {
+    width: 224px;
+    height: 36px;
+    margin-left: 80px;
+}
+
+#log{
+    width: 110px;
+    height: 36px;
+    float: left;
+}
+
+#login {
+    width: 70px;
+    height: 36px;
+    float: left;
+}
+
+#logout{
+    width: 30px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+}
+
+/*#login-a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+#img-login {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    float: left;
+}
+
+#enter {
+    width: 30px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #8a8a8a;
+    float: left;
+    margin-left: 4px;
+}
+
+#contribute {
+    width: 99px;
+    height: 36px;
+    float: left;
+    margin-left: 15px;
+    background-color: #FF6699;
+    line-height: 36px;
+    text-align: center;
+}
+
+#register{
+    color: #8a8a8a;
+}
+
+.headDiv {
+    float: left;
+    margin-top: 10px;
+}

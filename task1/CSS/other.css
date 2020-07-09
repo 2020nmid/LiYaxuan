@@ -1,0 +1,95 @@
+#includeOther {
+    width: 100%;
+    height: 62px;
+    background-color: black;
+}
+
+#other{
+    width: 960px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+#other-list{
+    /*line-height: 62px;*/
+    width: 960px;
+    height: 62px;
+}
+
+.other-li{
+    float: left;
+    list-style: none;
+}
+
+.other-li1{
+
+}
+
+.other-li2{
+    margin-left: 93px;
+}
+
+.other-li3{
+    margin-left: 94px;
+}
+
+#other-img1{
+    width: 56px;
+    height: 55px;
+    margin-top: 3px;
+}
+
+#other-img2{
+    width: 41px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+#other-img3{
+    width: 282px;
+    height: 31px;
+    margin-top: 15px;
+}
+
+#other-img4{
+    width: 42px;
+    height: 31px;
+    margin-top: 15px;
+    margin-left: -46px;
+}
+
+#other-chars1{
+    height: 62px;
+    line-height: 62px;
+    font-size: 12px;
+    margin-top: -62px;
+    margin-left: 56px;
+    color: white;
+}
+
+#other-chars2{
+    height: 62px;
+    line-height: 62px;
+    font-size: 12px;
+    margin-top: -50px;
+    margin-left: 41px;
+    color: white;
+}
+
+#other-chars3{
+    height: 62px;
+    line-height: 62px;
+    font-size: 12px;
+    margin-top: -50px;
+    margin-left: 20px;
+    color: black;
+}
+
+#other-chars4{
+    height: 62px;
+    line-height: 62px;
+    font-size: 12px;
+    margin-top: -62px;
+    margin-left: 252px;
+    color: #e8c91a;
+}
