@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+<title>登录界面</title>
+</head>
+
+<body>
+	
+	<div class="head">
+		<div class="head_left">
+			<table>
+				<tr>
+					<td><a href="#"  class="head_lefta"><img src="img/主站.png" alt="bilibili" height="35" width="100">主站</a></td>
+					<td><a href="#" class="head_lefta">游戏中心</a></td>
+					<td><a href="#" class="head_lefta">直播</a></td>
+					<td><a href="#" class="head_lefta">会员购</a></td>
+					<td><a href="#" class="head_lefta">漫画</a></td>
+					<td><a href="#" class="head_lefta">赛事</a></td>
+					<td><a href="#" class="head_lefta">歌会</a></td>
+					<td><a href="#" class="head_lefta">BML</a></td>
+					<td><a href="#" class="head_lefta">下载APP</a></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div class="head_mid">
+				    <input type="text" name="搜索" id="search"
+						   ><button class="search">搜索 </button>
+		</div>
+			<table class="head_right">
+				<tr>
+			        <td><a href="#" class="head_righta" ><img src="img/登录.png" alt="登录" hright="20" width="20">登录</a></td>
+					<td><a href="#" class="head_righta">注册</a></td>
+					<td><a href="#" id="head_righta">投稿</a></td>
+				</tr>
+			</table>	
+	</div>
+	<div> <a href="#"><img src="img/顶部.png" alt="顶部" height="191" width="1500"></a></div>
+	<div class="mid">
+		<div class="mid_left">
+			<div class="mid_left1"><img src="img/mid1.png" alt="。。。" width="500" height="300"></div>
+			<div class="mid_left2">
+				<div><img src="img/二维码.png" alt="..." width="120" height="160"></div>
+				
+			</div>
+			<div class="mid_left3"><img src="img/mid2.png" alt="..." width="130" height="260"></div>
+		</div>
+		<div class="mid_right">
+			<div class="mid_rightt">
+				<p style="color: aqua">密码登录</p>
+				<input type="text" class="input"><br/>
+				<input type="password" class="input">
+			</div>
+			<div class="mid_rightb">
+				<input type="radio" style="color: black">记住我&nbsp;
+				<span style="color:#D8D8D8 ">不是自己的电脑不要勾选此项</span>&emsp;&emsp;    
+				<a href="#" style="color:#00a0d8">无法验证？</a>&thinsp;
+				<a href="#" style="color:#00a0d8">忘记密码？</a>&nbsp;<br/>
+				<button class="btn1" style="color:#00a0d8">登录</button>
+				<button class="btn1">注册</button><br/>
+				<a href="#"><img src="img/微博登录.png" alt=".." width="15" height="15">微博账号登录</a>&nbsp;&nbsp;
+				<a href="#"><img src="img/qq登录.png" alt=".." width="15" height="15">QQ账号登录</a>
+			</div>
+			
+		</div>
+	</div>
+	<div class="footer">
+	    <div class="footer_left">
+				<span class="biliword" > bi1ibili </span>
+				<span class="sp1">
+					<a class="sp1a" href="#">关于我们</a>
+					<a class="sp1a" href="#">联系我们</a>
+					<a class="sp1a" href="#">加入我们</a>
+					</span>
+				<span class="sp2">
+					<a class="sp1a" href="#">友情链接</a>
+					<a class="sp1a" href="#">bilibili认证</a>
+					<a class="sp1a" href="#">Investor Relations</a>
+					</span>
+		</div>
+		<div class="footer_mid">
+				<span class="blinkwd">传送门</span>
+				<span class="blinkpl">
+					<a class="spa" href="#">帮助中心</a>
+					<a class="spa" href="#">高级弹幕</a>
+					<a class="spa" href="#">活动专题页</a>
+					</span>
+				<span class="blinkpl">
+					<a class="spa" href="#">侵权申述</a>
+					<a class="spa" href="#">活动中心</a>
+					<a class="spa" href="#">用户反馈论坛</a>
+					</span>
+				<span class="blinkpl">
+					<a class="spa" href="#">壁纸站</a>
+					<a class="spa" href="#">名人堂</a>
+					<a class="spa" href="#">专车号服务中心</a>
+					</span>
+		</div>		
+				<div class="download" id="download1">
+					<a href="#" class="dowaloada">
+						<img src="img/客户端下载.png" alt="客户端下载" width="40" height="40">
+						<span class="spand">客户端下载</span>
+					</a>
+		        </div>
+		        <div class="download">
+			      <a href="#" class="downloada">
+				    <img src="img/新浪.png" alt="新浪微博" width="40" height="40">
+				    <span class="spand1">新浪微博</span>
+			      </a>
+		        </div>
+		        <div class="download">
+			      <a href="#" class="downloada">
+				    <img src="img/微信.png" alt="官方微信" width="40" height="40" >
+				    <span class="spand2">官方微信</span>
+			      </a>
+		        </div>
+	</div>
+</body>
+</html>
