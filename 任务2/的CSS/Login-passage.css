@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color:#999}
+img{vertical-align: bottom;}
+input{outline:none;}
+select{outline-color: none;}
+#login{width:1000px;margin: 0 auto;position: relative;margin-top: 20px;}
+.line{display: inline-block;width: 400px;border-top: 1px solid #DDDDDD ;}
+.txt {font-size: 38px;vertical-align: middle;}
+#middle{width: 1600px;height:400px}
+#middle-left{height:350px;width: 485px;margin-left: 270px;position:relative;margin-top:20px;border-right:1px solid #DDDDDD ;float: left;}
+.middle-left-top{height: 250px;width:300px;background: url(../imges/ma_02.png) no-repeat;position: absolute;left:150px;top:20px;transition-property: background;transition: 25ms;}
+.middle-left-top:hover{height: 250px;width:450px;background: url(../imges/qr-tip.png) no-repeat;position: absolute;left: 10px;}
+.middle-left-bottom{height: 200px;position: absolute;
+left: 150px;top: 220px;}
+.blue-pic{width: 450px;height: 200px;
+background: url(../imges/2233login.af9c53d.png) no-repeat; position: absolute;left: -160px;bottom: 20px;}
+#middle-right{height:350px;width:485px;margin-top:30px;margin-left:500px ;position: relative;}
+.lu{line-height: 30px;margin-left: 30px;}
+
+.do1{font-size: 14px;width: 120px;border: 1px #E7E7E7 solid;height: 40px;
+border-radius: 5px 0 0 5px;margin-bottom: 30px;padding-left: 10px;margin-top: 10px; position: relative;color: #99A2AA;}
+
+.do2{font-size: 14px;width: 298px;border: 1px #E7E7E7 solid;height: 38px;
+border-radius: 0 5px 5px 0;margin-bottom: 30px;padding-left: 10px;margin-top: 10px;border-left: none;position: absolute;}
+.do2:focus{border: 1px #02BAED solid;}
+.do3{font-size: 14px;width: 420px;border: 1px #E7E7E7 solid;height: 40px;
+    border-radius: 5px;margin-bottom: 30px;padding-left: 10px;margin-top: 10px; }
+.do3:focus{border: 1px #02BAED solid;}
+.do4{width: 120px;height: 39px;background:#00A0D8;border:1px transparent;border-radius: 5px;color: ivory;position: absolute;top: 120.8px;left: 340px;}
+   
+.inp1{width: 190px;height: 35px;text-align: center;border: 1px #E7E7E7 solid ;border-radius: 3px;background-color: white;margin-bottom: 10px;}
+.wb{height: 22px;width: 22px;background: url(../imges/tx.png) no-repeat 0px 0px;display: inline-block;}
+.tx{height: 22px;width: 22px;background: url(../imges/tx.png) no-repeat 0px
+-40px;display: inline-block;}
+#document{ font-size: 12px;height: 20px;color:#99A2AA;text-align: center;
+width: 1500px;margin-bottom: 20px;}
+.hover-thr{color:#02BAED!important;}

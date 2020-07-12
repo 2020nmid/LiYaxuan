@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: bottom;}
+body{overflow:-Scroll;overflow-x:hidden;}
+input{outline:none;}
+#top{height: 50px;width:100%;padding: 10px 20px;font-size: 14px;}
+.top1{height: 20px;width: 20px;background: url(../imges/icons.png) no-repeat -1370px -1178px;display: inline-block;}
+.top2{height: 37px;width:40px;background:#E7E7E7 url(../imges/icons.png) no-repeat -781px -720px;display:inline-block;}
+.top2:hover{height: 37px;width:40px;background:#E7E7E7 url(../imges/icons.png) no-repeat -653px -720px;display:inline-block}
+.menu1 li{float: left;margin-top: 10px;margin-left:12px;}
+.ipu1{margin-left: 60px;width: 450px;height:25px;border: #E7E7E7 1px solid;
+background:#F4F4F4;padding: 5px 10px;font-size: 16px;} 
+.ipu2{width: 100px;height: 38px;background:#FB7299;border:1px transparent;border-radius: 2px;color: ivory;}
+#bannner{height:86px;width:1600px;background-color: #00A0D8;margin-top:-15px;}
+#banner{width: 1000px;margin-left:280px;position: relative;}
+#bottom{height: 380px;width: 1600px;background-color:#F6F9FA;position: relative;}
+.left-bottom{margin-left: 150px;width: 400px;height: 120px;border-right: 1px #DDDDDD solid;position: absolute;top: 30px;display: inline-block;}
+.left1{line-height: 30px;font-size: 14px;}
+.middle-bottom{margin-left: 600px;width: 400px;height: 120px;border-right: 1px #DDDDDD solid;position: absolute;top: 30px;}
+.middle1{line-height: 30px;font-size: 14px;}
+.right-bottom{margin-left: 1050px;width: 400px;height: 120px;position: absolute;top: 30px; font-size: 14px;}
+.app{height: 60px;width:60px;background:url(../imges/icons.png) no-repeat -1026px -196px;display:inline-block;margin-left: 15px;}
+.xl{height: 60px;width:60px;background:url(../imges/icons.png) no-repeat -1026px -324px;display:inline-block;margin-left: 20px;}
+.vx{height:60px;width:60px;background:url(../imges/icons.png) no-repeat -1026px -68px;display:inline-block;margin-left: 15px;}
+.bottom-bottom-left{width: 1050px;height: 200px;;margin-left: 150px; position: absolute;top: 180px;}
+.bottom-bottom-right{width: 900px;height: 200px;;margin-left: 275px; position: absolute;top: 180px;color:#99A2AA; ;font-size: 12px;}
+.bottom-bottom-right ul{line-height: 28px;}
+.sh{height:20px;width:20px;background:url(../imges/icons.png) no-repeat -1367px -84px;display:inline-block;}
+.hlw{height:20px;width:20px;background:url(../imges/icons.png) no-repeat -1433px -84px;display:inline-block;}
+.hover-sec:hover{color: black;font-size: 12px;}
+.hover-fir:hover{color:#02BAED!important;}
