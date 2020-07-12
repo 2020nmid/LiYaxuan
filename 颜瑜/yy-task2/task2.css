@@ -1,0 +1,212 @@
+.tupian{
+        background: #00a0d8;
+        height: 86px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+#middle .title{
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    text-align: center;
+    background-color: white;
+}
+
+#middle .tit{
+        height: 56px;
+        line-height: 56px;
+        margin: 0 auto;
+        padding: 0 20px;
+        font-size: 40px;
+        background: #fff;
+        text-align: center;
+}
+
+#middle .login{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#middle .clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#middle .login-left{
+    float: left;
+    width: 489px;
+    height: 367px;
+}
+#middle .l1{
+    position: relative;
+    width: 480px;
+}
+#middle .shang{
+    padding-top: 72px;
+}
+#middle .tv-icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 160px;
+    top: 10px;
+    background: url(./hhead/2.png) no-repeat;
+}
+#middle .xia{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background: #ddd;
+    position: relative;
+}
+#middle .tips{
+    z-index: 10;
+    position: absolute;
+    width: 480px;
+    height: 192px;
+    top: -50px;
+    left: 50%;
+    margin-left: -240px;
+    background: url(./hhead/3.png) no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    opacity: 0;
+}
+#middle .l1 .footer{
+    width: 480px;
+    height: 155px;
+    background: url(./hhead/5.png) 0 -7px no-repeat;
+}
+.l1 .footer .status-txt {
+    padding-top: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+#middle .app-link{
+    text-align: center;
+    color: #717171;
+    font-size: 14px;
+}
+#middle .app-link a{
+    color: skyblue;
+}
+#middle .login-line {
+        float: left;
+        border-right: 1px solid #ddd;
+        height: 300px;
+        margin-top: 28px;
+}
+#middle .login-right{
+    float: left;
+    padding-left: 45px;
+    width: 490px;
+    box-sizing: border-box;
+}
+.form-login{
+    position: relative;
+}
+.form-login .input-box {
+    margin-top: 50px;
+    width: 414px;
+}
+ .type-tab {
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.active {
+    color: #02a7de;
+}
+.type-tab>span {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-right: 20px;
+}
+.remember {
+    margin: 10px 0;
+    color: #717171;
+    width: 410px;
+    font-size: 12px;
+}
+.span1{
+    color: #bbb;
+    font-size: small;
+    margin-left: 10px;
+}
+.forget{
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+}
+.forget a{
+    color: rgb(124, 206, 238);
+}
+.btn-login {
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+}
+.btn-login1 {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    float: right;
+}
+.form-login .input-box .btn-box .btn {
+    color: #555;
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 184px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.btn-box{
+    width: 100%;
+    text-align: center;
+}
+.data{
+        margin: 24px auto 0;
+        width: 980px;
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+        color: #99a2aa;
+        text-align: center;
+        line-height: 16px;
+}
+.data a{
+    color: skyblue;
+}
+.sns{
+    padding: 12px 0;
+    font-size: 10px;
+}
+
+.ss-weibo,.ss-qq{
+    font-size: 12px;
+    float: left;
+}
+
+.ss-qq{
+    margin-left: 12px;
+}
