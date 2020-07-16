@@ -1,0 +1,103 @@
+#live-entirety {
+    width: 530px;
+    height: 280px;
+    background-color: white;
+}
+
+/*左边*/
+.live-left {
+    float: left;
+    width: 280px;
+    height: 260px;
+}
+
+.live {
+    float: left;
+}
+
+.title {
+    /*宽度*/
+    /*width: ;*/
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: 	#FF69B4;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*用户头像*/
+.left-picture-box {
+    width: 64px;
+    height: 64px;
+}
+
+.left-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+}
+/*用户头像*/
+
+/*用户名字*/
+.character {
+    width: 64px;
+    height:20px;
+    line-height: 20px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.live {
+    margin-left: 20px;
+}
+
+.top {
+    margin-top: 15px;
+}
+
+.below {
+    margin-top: 15px;
+}
+/*左边*/
+
+/*中间*/
+.live-center {
+    float: left;
+    width: 2px;
+    height: 210px;
+    background-color: #dddddd;
+    margin-top: 45px;
+}
+/*中间*/
+
+/*右边*/
+.live-right {
+    float: left;
+}
+
+.right-picture-box {
+    width: 208px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.right-picture {
+    width: 100%;
+    right: 100%;
+}
+
+.right-character {
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: 	#FF69B4;
+    margin-left: 20px;
+    margin-top: 20px;
+}

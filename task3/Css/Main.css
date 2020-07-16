@@ -1,0 +1,391 @@
+#main-top {
+    width: 100%;
+    height: 86px;
+    /*background-color: #0099CC;*/
+    /*background-color: #1296db;*/
+    background-color: #3499cd;
+}
+
+#includeImg-main-top{
+    width: 980px;
+    height: 106px;
+    margin: 0 auto;
+}
+
+#img-main-top {
+    width: 980px;
+    height: 106px;
+}
+
+#bigEnter {
+    margin: 20px auto;
+    width: 980px;
+    height: 50px;
+}
+
+.stall {
+    width: 420px;
+    height: 1px;
+    background-color: #DDDDDD;
+    float: left;
+    margin-top: 25px;
+}
+
+#dl {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+
+#importance {
+    width: 980px;
+    height: 367px;
+    margin: 40px auto;
+}
+
+#login-left {
+    width: 489px;
+    height: 367px;
+    float: left;
+}
+
+#tv-planar {
+    width: 140px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#tv-icon{
+    font-size: 60px;
+}
+
+#planar-icon{
+    font-size: 140px;
+    display: block;
+    margin-top: -15px;
+}
+
+#login-left-below {
+    width: 489px;
+    height: 167px;
+    float: left;
+}
+
+.include2233 {
+    width: 140px;
+    height: 167px;
+    float: left;
+}
+
+.bilibili2233 {
+    width: 140px;
+    height: 167px;
+}
+
+#app-link {
+    width: 209px;
+    height: 167px;
+    float: left;
+}
+
+#planar-tip {
+    width: 209px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#explainTip {
+    width: 209px;
+    height: 80px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#client{
+    color: #1296db;
+}
+
+#line {
+    width: 1px;
+    height: 300px;
+    background-color: #DDDDDD;
+    float: left;
+    margin-top: 33px;
+}
+
+#login-right {
+    width: 490px;
+    height: 338px;
+    float: left;
+}
+
+#includePN {
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+#password {
+    width: 75px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    color: #1296db;
+}
+
+#password:hover{
+    cursor: pointer;
+}
+
+#note {
+    width: 75px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+
+#note:hover{
+    cursor: pointer;
+}
+
+#PN-content {
+    width: 490px;
+    height: 124px;
+}
+
+#phoneNumber {
+    width: 414px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-indent: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #8a8a8a;
+}
+
+#passwordNumber {
+    width: 414px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    text-indent: 10px;
+    margin-left: 30px;
+    color: #8a8a8a;
+}
+
+#P-content{
+    width: 480px;
+    height: 124px;
+    display: none;
+}
+
+
+#selectPhone {
+    text-overflow: ellipsis;
+    width: 130px;
+    height: 42px;
+    color: #8a8a8a;
+    padding-left: 10px;
+    margin-left: 30px;
+    border-radius: 5px 0 0 5px;
+    float: left;
+    margin-top: 10px;
+}
+
+#selectPhone:hover{
+    cursor: pointer;
+}
+
+option {
+    font-size: 15px;
+}
+
+#phone {
+    width: 284px;
+    height: 40px;
+    color: #8a8a8a;
+    text-indent: 10px;
+    margin-left: -1px;
+    border: 1px solid gray;
+    border-radius: 0 5px 5px 0;
+    float: left;
+    margin-top: 10px;
+}
+
+#yard{
+    width: 414px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    text-indent: 10px;
+    margin-left: 30px;
+    color: #8a8a8a;
+    float: left;
+}
+
+#getYard {
+    background-color: #1296db;
+    width: 130px;
+    height: 42px;
+    color: white;
+    float: left;
+    margin-left: -130px;
+    margin-top: 30px;
+    border: 1px solid #1296db;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rememberPassword {
+    color: black;
+    font-size: 12px;
+    width: 280px;
+    height: 25px;
+    margin-top: 20px;
+    line-height: 25px;
+    float: left;
+}
+
+#rememberPassword:hover{
+    cursor: pointer;
+}
+
+#remember {
+    margin-left: 30px;
+    display: block;
+    margin-top: 7px;
+    float: left;
+}
+
+#tip-a{
+    color: gray;
+}
+
+#questions {
+    width: 210px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin-top: 20px;
+}
+
+#verifiably {
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    color: #1296db;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    margin-left: 26px;
+}
+
+#forgetPassword{
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    color: #1296db;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+}
+
+.question-a{
+    color: #1296db;
+}
+
+.log {
+    width: 186px;
+    height: 38px;
+}
+
+#login-button {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #1296db;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+}
+
+#login-button:hover{
+    cursor: pointer;
+}
+
+#register-button {
+    margin-left: 39px;
+    margin-top: 20px;
+    border: 1px solid black;
+    color: #8a8a8a;
+    font-size: 18px;
+}
+
+#register-button:hover{
+    cursor: pointer;
+}
+
+.otherLog{
+    float: left;
+}
+
+#weibo-img {
+    color: red;
+    font-size: 25px;
+    display: block;
+    float: left;
+}
+
+#qq-img{
+    color: #3499cd;
+    font-size: 25px;
+    display: block;
+    float: left;
+}
+
+.otherLog-a{
+    color: gray;
+    display: block;
+    float: left;
+}
+
+#otherLog-left{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#otherLog-right {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.otherLog-chars{
+    font-size: 12px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#main-footer {
+    width: 230px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #8a8a8a;
+    margin: 30px auto;
+    font-size: 12px;
+}
+
+.main-footer-a{
+    color: #1296db;
+}

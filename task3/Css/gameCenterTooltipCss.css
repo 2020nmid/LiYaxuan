@@ -1,0 +1,120 @@
+.tooltip-box {
+    display: block;
+    background-color: #fff;
+    border: 0;
+    font-size: 12px;
+}
+
+/*游戏中心的提示*/
+#game-entirety {
+    width: 675px;
+    height: 255px;
+}
+
+/*左边*/
+.left {
+    background-color: white;
+    width: 250px;
+    height: 238px;
+    float: left
+}
+
+#fate-top {
+    width: 240px;
+    height: 128px;
+    border-radius: 5px;
+}
+
+#fate-blow {
+    margin-left: 10px;
+    margin-top: -25px;
+    color: #CD7F32;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+#shadow {
+    position: relative;
+    width: 240px;
+    height: 128px;
+    margin-top: -122px;
+    box-shadow: 0px -25px 30px -20px black inset;
+}
+
+.blow-picture {
+    margin-top: 10px;
+    width: 66px;
+    height: 66px;
+    border-radius: 14px;
+}
+
+.blow-character {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+/*中间分割线*/
+.center {
+    float: left;
+    background-color: #eeeeee;
+    width: 1px;
+    height: 223px;
+    margin-left: -1px;
+    margin-top: 12px;
+    box-shadow: 0 0 1px 2px #eeeeee;
+}
+
+/*右边*/
+.right {
+    background-color: white;
+    float: left;
+    width: 200px;
+    height: 238px;
+}
+
+/*新游预告*/
+#newGame {
+    color: #d3217b;
+    font-size: 35px;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 10px
+}
+
+.xinyouyugao {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 15px;
+    font-weight: 500;
+    color: white
+}
+
+/*新游戏*/
+.game {
+    display: block;
+    height: 28px;
+    width: 200px;
+    font-size: 13px;
+    color: #444444;
+    padding-left: 20px;
+    line-height: 28px;
+}
+
+.game:hover {
+    background-color: #dddddd;
+}
+
+/*右边的提示图片*/
+#tipImg {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-left: -17px;
+    margin-top: 20px;
+}
+
+.imgTip {
+    width: 100%;
+}
+/*游戏中心的提示*/

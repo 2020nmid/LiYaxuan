@@ -1,0 +1,2 @@
+查找资料可知：可以通过js控制元素的display：none来实现验证方式选择
+加入verify.js时不能实现预期结果：最开始<script src="../Js/verify.js" type="text/javascript"></script>放在head标签中不能实现效果，之后将其放在body标签最后面即可实现预期效果
