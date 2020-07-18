@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ver-all {
+    width: 270px;
+    height: 350px;
+    position: absolute;
+    z-index: 10;
+    left: 820px;
+    top: 250px;
+    background-color: white;
+    border: 1px solid #8a8a8a;
+    display: none;
+}
+
+#ver-top {
+    width: 270px;
+    height: 40px;
+}
+
+#ver-top-chars {
+    width: 127px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+}
+
+#ver-img-all {
+    width: 116px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+#allCanvas {
+    width: 260px;
+    height: 260px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#canvas1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+#canvas2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+#ver-below {
+    position: absolute;
+    margin-top: 270px;
+    width: 270px;
+    height: 40px;
+}
+
+#ver-cancel{
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 10px;
+    color: #8a8a8a;
+}
+
+#ver-cancel:hover {
+    cursor: pointer;
+}
+
+#ver-renovate{
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 5px;
+    color: #8a8a8a;
+}
+
+#ver-renovate:hover {
+    cursor: pointer;
+}
+
+#ver-ack {
+    width: 96px;
+    height: 32px;
+    font-size: 15px;
+    background-color: #1296db;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 4px;
+}

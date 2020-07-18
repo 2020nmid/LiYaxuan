@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按顺序点击字体</title>
+    <link href="../Css/verification.css" rel="stylesheet">
+    <link href="//at.alicdn.com/t/font_1923371_nra1s8lxve.css" rel="stylesheet">
+</head>
+<body>
+<div id="ver-all">
+    <div id="ver-top">
+        <div id="ver-top-chars">请在下图<span style="color: #1296db">依次</span>点击：</div>
+        <img id="ver-img-all" src="">
+    </div>
+    <div id="allCanvas">
+        <canvas id="canvas1" width="260px" height="260px" onclick="getMouseXY()"></canvas>
+        <canvas id="canvas2" width="260px" height="260px"></canvas>
+    </div>
+    <div id="ver-below">
+        <i id="ver-cancel" class="iconfont icon-chahao"></i>
+        <i id="ver-renovate" class="iconfont icon-shuaxin"></i>
+        <button id="ver-ack" onclick="submit()">确认</button>
+    </div>
+</div>
+<script src="../Js/clickTypeface.js" type="text/javascript"></script>
+</body>
+</html>
