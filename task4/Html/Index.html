@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录/注册</title>
+    <link href="../Css/log.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="log">
+    <input id="login-email" type="text" placeholder="邮箱" class="block">
+    <input id="login-password" type="password" placeholder="密码" class="block">
+    <button id="btn-login" onclick="login()">登录</button>
+</div>
+
+<div class="log">
+    <input id="register-email" type="text" placeholder="邮箱" class="block">
+    <input id="register-password" type="password" placeholder="密码" class="block">
+    <input id="register-yard" type="text" placeholder="验证码" class="block">
+    <button id="btn-yard" onclick="registerGetCode()">获取验证码</button>
+    <button id="btn-register" onclick="registerEmail()">注册</button>
+</div>
+
+<div class="log">
+    <input id="change-email" type="text" placeholder="邮箱" class="block">
+    <input id="change-password" type="password" placeholder="密码" class="block">
+    <input id="change-yard" type="text" placeholder="验证码" class="block">
+    <button id="btn-change-yard" onclick="changeGetCode()">获取验证码</button>
+    <button id="btn-change" onclick="updatePassword()">更改密码</button>
+</div>
+
+<script type="text/javascript" src="../Js/log.js"></script>
+</body>
+</html>

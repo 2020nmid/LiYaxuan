@@ -1,0 +1,9 @@
+       采用post请求获取验证码时报错405
+{"timestamp":"2020-07-22T08:26:15.820+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/api/register/sendCheckCode"}
+此时采用get方式
+        采用get请求进行注册时报错405
+{"timestamp":"2020-07-22T08:45:18.431+0000","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/api/user/register"}
+此时使用post方式
+        不知如何不采用a标签而采用js实现页面跳转：js跳转主要是通过window的location对象的href属性，因为location对象本
+来就是表示的浏览器窗口window的location，是决定这个网页的url。改变location的href即可实现页面的改变即页面跳转。
+

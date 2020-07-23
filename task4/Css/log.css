@@ -1,0 +1,39 @@
+.log{
+    float: left;
+    margin-left: 50px;
+}
+
+.block {
+    display: block;
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 10px;
+}
+
+#btn-login {
+    width: 50px;
+    height: 25px;
+    margin-left: 55px;
+}
+
+#btn-yard{
+    width: 100px;
+    height: 25px;
+}
+
+#btn-register{
+    width: 50px;
+    height: 25px;
+    margin-left: 9px;
+}
+
+#btn-change-yard{
+    width: 90px;
+    height: 25px;
+}
+
+#btn-change{
+    width: 70px;
+    height: 25px;
+}
