@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style>
+		*{
+			font-size:10px;
+		}
+		#dv{
+			display: none; 
+            position: absolute; 
+            top: 25%; 
+            left: 25%; 
+            width: 200px; 
+            height: 260px; 
+            padding: 2px; 
+            border: 1px solid ; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: hidden;
+			background-color: aliceblue;
+		}
+		#im{
+			width: 200px;
+			height: 200px;
+			position: relative;
+			background: url(img/sign.png);
+			background-size: 100% 100%;
+			-moz-user-select:none;
+		}
+		
+		#sure{
+			color:aliceblue;
+			background-color: aqua;
+			margin-left:100px; 
+		}
+		#sentence{
+			display: inline-block;
+			color:#C09C9C;
+			margin-left:5px;
+			letter-spacing: 4px;
+		}
+	
+	</style>
+	<script>
+
+		function F(){
+			var dv=document.getElementById('dv');
+			var r=document.getElementById('im').innerHTML="";
+			dv.style.display='block';
+//			var im=document.createElement('div');
+//			im.style.cssText = "width: 200px;height: 200px;position: relative;background: url(img/sign.png);background-size: 100% 100%;";
+			
+			var strings = ["太阳镜","大黄鸭","西兰花","西红柿"];
+			var Pos = Math.floor(Math.random()*4);
+			var s = strings[Pos];
+			document.getElementById('sentence').innerHTML = s;
+			var c = s.split("");
+			i=0;j=0;k=0;sum=0;
+			
+			var div = document.querySelector("#im");
+			var a0=document.createElement("a");
+			var x0=Math.floor(Math.random()*200*(1-0.2));
+			var y0=Math.floor(Math.random()*200*(1-0.2));
+			a0.style.cssText = "font-size:40px;width:20%;color:red; position:absolute ";
+			a0.innerHTML = c[0];
+			div.appendChild(a0);
+			a0.style.left = x0+"px";
+			a0.style.top = y0+"px";
+			
+			var a1=document.createElement("a");
+			do{
+				var x1=Math.floor(Math.random()*(1-0.2)*200);
+				var y1=Math.floor(Math.random()*(1-0.25)*200);
+			}while((x1<x0+0.2*200&&x1>x0-0.2*200) || (y1<y0+0.2*200&&y1>y0-0.2*200))
+			a1.style.cssText = "font-size:40px;width:20%;color:red; position:absolute";
+			a1.innerHTML = c[1];
+			div.appendChild(a1);
+			a1.style.left = x1+"px";
+			a1.style.top = y1+"px";
+			
+			var a2=document.createElement("a");
+			do{
+				var x2=Math.floor(Math.random()*(1-0.2)*200);
+				var y2=Math.floor(Math.random()*(1-0.2)*200);
+			}while(((x2<x0+0.2*200&&x2>x0-0.2*200) || (y2<y0+0.2*200&&y2>y0-0.2*200))||((x2<x1+0.2*200&&x2>x1-0.2*200) || (y2<y1+0.2*200&&y2>y1-0.2*200)))
+			a2.style.cssText = "font-size:40px;width:20%;color:red; position:absolute";
+			a2.innerHTML = c[2];
+			div.appendChild(a2);
+			a2.style.left = x2+"px";
+			a2.style.top = y2+"px";
+			
+			a0.onclick=function T0(){													   
+				a1.onclick=function T1(){
+					a2.onclick=function T2(){
+						document.getElementById('sure').onclick=function T(){
+							location.href='https://www.bilibili.com/v/life/daily/#/530003';
+						}
+					}
+				}
+			}
+				
+					
+
+          
+	
+		}
+		
+	</script> 
+	
+<title>无标题文档</title>
+</head>
+<body>
+	<button id="sign" onclick="F()">登录</button>
+	<div id="dv" >
+		<p>请在下图依次点击：<a id="sentence"></a> </p>
+		<div id="im" > 
+			
+		</div>
+		<p> <a  href="javascript:void(0)" onclick = "document.getElementById('dv').style.display='none'">关闭</a>
+			<a  href="javascript:void(0)" onclick = "F()">刷新</a>
+			<input type="button" id="sure" value="确认" >
+		</p>
+	
+	</div>
+
+</body>
+</html>
