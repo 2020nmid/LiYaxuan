@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 15px;
+		}
+		#dv{
+			background-color:cyan;
+			width: 300px;
+			margin:auto;
+			padding-top: 20px;
+			padding-left: 5px;
+			padding-bottom: 10px;
+			position: relative;
+			top: 300px;
+			
+		}
+		.btn{
+			height: 20px;
+			margin-top: 20px;
+			background-color: aquamarine;
+			margin-bottom: 40px;
+			margin-left: 20px;
+		}
+		#check{
+			width: 80px;
+		}
+		#sign{
+			margin-left: 20px;
+		}
+		#register{
+			margin-left: 130px; 
+		}
+		input{
+			width: 200px;
+			margin-bottom: 5px;
+		}
+		span a{
+			font-size: 10px;
+		}
+	</style>
+<body>
+
+<div id="dv">
+	<p>账号：<input type="text" placeholder="输入邮箱" id="email" ></p>
+	<p>密码：<input type="password" placeholder="账号密码" id="password"></p>
+	<p id="tocheck" style="display: none;">验证：<input type="text" id="check" > <button id="getcode" onclick="getcode()">获得验证码</button></p>
+<!--	单击登录按钮隐藏验证框，双击击进行登录-->
+	<button class="btn" id="sign" onDblClick="login()" onClick="tologin()">登录</button>
+<!--	单击注册按钮显示验证框,双击进行注册-->
+	<button class="btn" id="register" onDblClick="register()" onClick="toregister()">注册</button><br/>
+	<span><a href="#">忘记密码？</a></span>
+	
+</div>
+
+<script>
+	function getJsonRequest(url) {
+		var xhttp;
+		if (window.XMLHttpRequest){
+			xhttp = new XMLHttpRequest();			
+		} 
+		else {
+		// code for IE6, IE5
+			xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xhttp.open('get', url);
+		xhttp.send();
+		return xhttp;
+	}
+	
+	function postJsonRequest(url, data) {
+    	var xhttp;
+		if (window.XMLHttpRequest){
+			xhttp = new XMLHttpRequest();			
+		} 
+		else {
+		// code for IE6, IE5
+			xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xhttp.open('post', url);
+		xhttp.setRequestHeader('Content-Type', 'application/json');
+		xhttp.send(data);
+		return xhttp;
+    } 
+	
+	function login(){
+    	var myEmail = document.getElementById("email").value;
+    	var myPassword = document.getElementById("password").value;
+    	var url = "http://120.24.93.68:8085/api/login";
+    	// var data = "email=" + myEmail + "&password=" + myPassword;
+    	var data = JSON.stringify({email: myEmail, password: myPassword});
+    	var xhttp = postJsonRequest(url,data);
+    	xhttp.onload = function () {
+			console.log(xhttp.responseText);
+			var response = JSON.parse(xhttp.responseText);
+			console.log(response);
+			console.log("code = " + response.code + "\nmessage = " + response.message + "\ndata = " + response.data);
+			switch (response.code) {
+				case 200:
+					alert("登陆成功！");
+					window.location.href = "https://www.bilibili.com/";
+					break;
+				case 1001:
+					alert("用户名或密码错误！");
+					break;
+								 }
+        }
+    }
+	
+	function getcode(){
+		var myEmail = document.getElementById("email").value;
+		var url = "http://120.24.93.68:8085/api/register/sendCheckCode";
+		var data = 'email=' + myEmail;
+		var urlData = url + '?' + data;
+		var xhttp = getJsonRequest(urlData);
+		xhttp.onload = function () {
+			console.log(xhttp.responseText);
+			var response = JSON.parse(xhttp.responseText);
+			console.log(response);
+			console.log("code = " + response.code + "\nmessage = " + response.message + "\ndata = " + response.data);
+			switch (response.code) {
+				case 1005:
+					alert("邮箱错误！");
+					break;
+           }
+     	}
+	}
+	function register(){
+		var myEmail = document.getElementById("email").value;
+		var myPassword = document.getElementById("password").value;
+		var myCheckCode = document.getElementById("check").value;
+		var url = "http://120.24.93.68:8085/api/user/register";
+		var data = JSON.stringify({checkCode: myCheckCode, email: myEmail, password: myPassword, role: 0});
+		var xhttp = postJsonRequest(url, data);
+		xhttp.onload = function () {
+			console.log(xhttp.responseText);
+			var response = JSON.parse(xhttp.responseText);
+			console.log(response);
+			console.log("code = " + response.code + "\nmessage = " + response.message + "\ndata = " + response.data);
+			switch (response.code) {
+				case 500:
+					alert("验证码错误！");
+					break;
+				case 200:
+					alert("注册成功！");
+					break;
+        	}
+    	}
+	}
+	
+	function tologin(){
+		document.getElementById('tocheck').style.display='none';
+		document.getElementById('check').innerHTML="";
+	}
+	function toregister(){
+		document.getElementById('tocheck').style.display='block';
+	}
+	
+</script>
+
+</body>
+</html>
