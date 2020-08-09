@@ -94,7 +94,7 @@ module.exports = {
                 //下载url-loader和file-loader
                 loader: 'url-loader',
                 options: {
-                    //图片大小下雨8kb，就会被base64处理
+                    //图片大小小于8kb，就会被base64处理
                     //有点：减少请求数量（减轻服务器压力）
                     //缺点：图片体积更大（文件请求速度更慢）
                     limit: 8 * 1024,

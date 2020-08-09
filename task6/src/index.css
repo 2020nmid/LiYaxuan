@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#entirety{
+    width: 500px;
+    height: 110px;
+    margin: 20px auto;
+}
+
+h1{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#add-task{
+    width: 500px;
+    height: 30px;
+}
+
+#delete-task{
+    width: 500px;
+    height: 30px;
+}
+
+input{
+    width: 428px;
+    height: 26px;
+    padding-left: 20px;
+    border: 1 solid gray;
+    display: block;
+    float: left;
+}
+
+button{
+    width: 49px;
+    height: 30px;
+    border: 1 solid gray;
+    margin-left: -1px;
+    float: left;
+}
+
+#tasks{
+    font-size: 15px;
+    color: red;
+    margin-left: 10px;
+}
+
+#taskList{
+    width: 500px;
+}
+
+li{
+    list-style: none;
+    width: 500px;
+}
+
+.taskContent{
+    float: left;
+    padding-left: 20px;
+    width: 460px;
+}
+
+.deleteImg{
+    width: 18px;
+    height: 18px;    
+    background: url(./firstImg.png);
+}
+
+.delete{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+#deleteAllTask{
+    width: 100px;
+}
