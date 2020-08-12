@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+input{
+    height: 40px;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+    width: 1180px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    height: 40px;         /*垂直居中：容器的height于line-height相同   */
+    line-height: 40px;
+}
+a{
+    position: absolute;
+    right: 50px;
+}
+i{  
+    color: orange;
+}
+#task{
+    width: 1180px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid  deepskyblue;
+    border-left: none;
+}
+#filter{
+    width: 1180px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid  gray;
+    border-left: none;
+}
+span{
+    display: block;
+    margin-left: 450px;
+    color: deepskyblue;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#task-title{
+    font-size: 30px;
+    margin-bottom: 15px;;
+}
+#main{
+    margin-left: 10px;
+}
+.btn{
+    color: white;
+    background-color: lightseagreen;
+    width: 160px;
+    height: 40px;
+}
+.container{
+    position: relative;
+    left: 400px;
+    width: 1200px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid black;
+    
+}

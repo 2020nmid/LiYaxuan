@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">任务清单</span>
+                        <div class="row">
+                            <form  id="task-form">
+                                <div class="input-field col s12"> 
+                                    <input type="text" name="task" id="task" placeholder="新的任务">
+                                </div>
+                                <input type="submit" value="添加任务" class='btn'>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="task-title">我的任务</h5>
+                        <div class="input-field col s12">
+                            <input type="text" name="filter" id="filter" placeholder="筛选任务">
+                        </div>
+                        <ul class="collection">
+                            <li class="collection-Item">任务1<a  class="delete-item secondary-content" ><i class="fa fa-remove"></i></a></li>
+                            <li class="collection-Item">任务2<a  class="delete-item secondary-content" ><i class="fa fa-remove"></i></a></li>
+                        </ul>
+                       <input type="submit" class="clear-tasks btn black" value="删除任务">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
